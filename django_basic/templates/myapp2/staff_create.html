@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Python講座</title>
+</head>
+<body>
+<h1>社員作成ページ</h1>
+<form method = "post">{% csrf_token%}
+    <table>
+    {{ form.as_table }}
+    </table>
+    <input type = "submit" value = "作成">
+</form>
+</body>
+</html>

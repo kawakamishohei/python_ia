@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9dd6b63-5422-47df-84e2-269c4fa082ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/django_basic/myapp2/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_basic/myapp2/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_basic/templates/myapp/home2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_basic/templates/myapp2/book_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_basic/templates/myapp2/department_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_basic/templates/myapp2/staff_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_basic/templates/myapp2/staff_information_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_basic/templates/myapp2/staff_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_basic/conf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_basic/conf/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_basic/conf/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_basic/conf/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_basic/myapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_basic/myapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_basic/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_basic/myapp/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Qu2OurXVFFPRr6CD0Swl3sKJys" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/enisias/python_ia&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9dd6b63-5422-47df-84e2-269c4fa082ce" name="Changes" comment="" />
+      <created>1686189116986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686189116986</updated>
+    </task>
+    <servers />
+  </component>
+</project>
