@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for article in article_list %}
+    {{ article.title }} / {{ article.created_at }}
+{% for tag in article.tags.all %}
+    {{ tag.name }}
+{% endfor %}
+<p>
+
+{% endfor %}
+</body>
+</html>

@@ -35,6 +35,23 @@ class StaffCreateView(CreateView):
     success_url = reverse_lazy('myapp2:staff_information_create')
 
 
+class StaffDetailView(generic.DetailView):
+    model = Staff
+    template_name = 'myapp2/staff_detail.html'
+
+    def get_object(self, queryset=None):
+        # self.kwargsは、URL内の int:pkといった部分が入っている
+        staff = Staff.objects.get(pk=self.kwargs['pk'])
+        # →Staff.objects.get(pk=1)  # 今回、URLは/staff_detail/1/
+        # →Staff.objects.get(id=1)  # pkというのは、primarykeyのこと。今回ならidフィールドのこと
+        return staff
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        staff = self.get_object()
+        context['books'] = staff.rented_books.all()
+        return context
+
 class StaffListView(generic.ListView):
     model = Staff
     template_name = 'myapp2/staff_list.html'
