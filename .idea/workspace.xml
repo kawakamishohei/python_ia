@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9dd6b63-5422-47df-84e2-269c4fa082ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/django_basic/myapp2/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_basic/myapp2/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_basic/templates/myapp/home2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_basic/templates/myapp2/book_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_basic/templates/myapp2/department_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_basic/templates/myapp2/staff_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_basic/templates/myapp2/staff_information_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_basic/templates/myapp2/staff_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_basic/conf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_basic/conf/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_basic/conf/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_basic/conf/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_basic/myapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_basic/myapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_basic/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_basic/myapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
