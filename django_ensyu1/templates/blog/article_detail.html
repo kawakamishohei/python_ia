@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>記事詳細ページ</h1>
+<p>記事のタイトル {{ article.title }}</p>
+<p>本文 {{ article.text }}</p>
+<p>作成日 {{ article.created_at }}</p>
+<p>タグ
+
+<!--コンテキスト使わないで表示したやつ-->
+    {% for tag in article.tags.all %}
+        {{ tag.name }}
+    {% endfor %}
+
+<!--コンテキストで表示したやつ-->
+    {% for tag in tags %}
+        {{ tag.name }}
+    {% endfor %}
+
+</p>
+<p>カテゴリ {{ article.category.name }}</p>
+
+{% endblock %}
+</body>
+</html>

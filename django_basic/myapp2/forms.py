@@ -6,6 +6,13 @@ class StaffInformationForm(forms.ModelForm):
         model = StaffInformation
         fields = ('staff_name','email','address','birthday','hire_date','at_desk')
 
+class StaffInformationUpdateForm(forms.ModelForm):
+
+    class Meta:
+        model = StaffInformation
+        fields = ('staff_name', 'email', 'address', 'birthday', 'hire_date', 'at_desk')
+
+
 class DepartmentForm(forms.ModelForm):
     class Meta:
         model = Department
