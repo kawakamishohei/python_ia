@@ -7,7 +7,6 @@
 <body>
 
 {% extends 'base.html' %}
-
 {% block content %}
 
 <!--for articleのarticleが下のarticle.tags.allのarticleと対応してる-->
@@ -17,6 +16,9 @@
 {% for tag in article.tags.all %}
     {{ tag.name }}
 {% endfor %}
+
+<a href="{% url 'blog:article_update' article.pk %}">更新</a>
+<a href="{% url 'blog:article_delete' article.pk %}">削除</a>
 <br>
 {% endfor %}
 <!--&lt;!&ndash;コンテキスト使って表示&ndash;&gt;-->

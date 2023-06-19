@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views import generic
 
-from .forms import TagCreateForm, ArticleCreateForm
+from .forms import TagCreateForm, ArticleCreateForm,ArticleUpdateForm
 from .models import Article, Tag
 
 
@@ -55,3 +55,15 @@ class ArticleCreateView(generic.CreateView):
     template_name = 'blog/article_create.html'
     success_url = reverse_lazy('blog:article_list')
     form_class = ArticleCreateForm
+
+
+class ArticleUpdate(generic.UpdateView):
+    model = Article
+    form_class = ArticleUpdateForm
+    template_name = 'blog/article_update.html'
+    success_url = reverse_lazy('blog:article_list')
+
+class ArticleDelete(generic.DeleteView):
+    model = Article
+    template_name = 'blog/article_delete.html'
+    success_url = reverse_lazy('blog:article_list')

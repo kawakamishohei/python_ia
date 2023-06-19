@@ -13,3 +13,9 @@ class ArticleCreateForm(forms.ModelForm):
     class Meta:
         model = Article
         fields = ('title', 'text', 'created_at', 'category', 'tags',)
+
+
+class ArticleUpdateForm(forms.ModelForm):
+    class Meta:
+        model = Article
+        fields = ('title', 'text', 'created_at', 'category', 'tags',)
