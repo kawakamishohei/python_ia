@@ -3,6 +3,7 @@ from .models import Goods
 from .forms import GoodsCreateForm, GoodsUpdateForm
 from django.urls import reverse_lazy
 
+
 class GoodsCreate(generic.CreateView):
     form_class = GoodsCreateForm
     template_name = 'crud/goods_create.html'
@@ -32,6 +33,7 @@ class GoodsUpdate(generic.UpdateView):
         # が、get_objectメソッドで取得できます
         goods = self.get_object()
         return reverse_lazy('crud:goods_detail', kwargs={'pk': goods.id})
+
 
 class GoodsDelete(generic.DeleteView):
     model = Goods
