@@ -29,5 +29,15 @@ class Article(models.Model):
         return self.title
 
 
+class Comment(models.Model):
+    name = models.CharField('名前', default='名無し',max_length=100)
+    text = models.TextField('コメント内容')
+    target = models.ForeignKey(
+        Article, on_delete=models.SET_NULL,
+        blank=True, null=True,
+        verbose_name='紐づく記事'
+    )
 
+    def __str__(self):
+        return self.text[:15]
 # Create your models here.

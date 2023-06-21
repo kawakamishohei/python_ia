@@ -28,7 +28,14 @@
 
 </p>
 <p>カテゴリ {{ article.category.name }}</p>
-
+<h1>コメント欄</h1>
+{% for comment in article.comment_set.all %}
+<div>
+    {{ comment.name }}
+    {{ comment.text }}
+</div>
+{% endfor %}
+<a href="{% url 'blog:comment_create' article.pk %}">コメント作成</a>
 {% endblock %}
 </body>
 </html>
